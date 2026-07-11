@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="300" viewBox="0 0 520 300" font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+  <defs>
+    <linearGradient id="bgd" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f0024"/><stop offset="1" stop-color="#12001a"/>
+    </linearGradient>
+  </defs>
+  <rect width="520" height="300" rx="16" fill="url(#bgd)"/>
+  <text x="30" y="42" fill="#ffffff" font-size="22" font-weight="800">Kimenetelek eloszlása</text>
+  <text x="30" y="64" fill="#b79cbe" font-size="13">Premier League 2015–2024</text>
+
+  <!-- donut: center (150,175) r=78 sw=40, circumference=490.09 -->
+  <g fill="none" stroke-width="40">
+    <circle cx="150" cy="175" r="78" stroke="#2c1233"/>
+    <!-- H 44.5% -> 218.09 -->
+    <circle cx="150" cy="175" r="78" stroke="#00ff85" stroke-dasharray="218.09 490.09" transform="rotate(-90 150 175)"/>
+    <!-- D 23.3% -> 114.19, start 160.2deg -->
+    <circle cx="150" cy="175" r="78" stroke="#7a5c86" stroke-dasharray="114.19 490.09" transform="rotate(70.2 150 175)"/>
+    <!-- A 32.2% -> 157.81, start 244.08deg -->
+    <circle cx="150" cy="175" r="78" stroke="#e90052" stroke-dasharray="157.81 490.09" transform="rotate(154.08 150 175)"/>
+  </g>
+  <text x="150" y="170" text-anchor="middle" fill="#ffffff" font-size="26" font-weight="800">3 800</text>
+  <text x="150" y="192" text-anchor="middle" fill="#b79cbe" font-size="13">mérkőzés</text>
+
+  <!-- legend -->
+  <g font-size="15">
+    <rect x="300" y="120" width="16" height="16" rx="4" fill="#00ff85"/>
+    <text x="326" y="133" fill="#ffffff" font-weight="700">Hazai győzelem</text>
+    <text x="486" y="133" fill="#00ff85" text-anchor="end" font-weight="800">44,5%</text>
+
+    <rect x="300" y="158" width="16" height="16" rx="4" fill="#7a5c86"/>
+    <text x="326" y="171" fill="#ffffff" font-weight="700">Döntetlen</text>
+    <text x="486" y="171" fill="#c9b6cf" text-anchor="end" font-weight="800">23,3%</text>
+
+    <rect x="300" y="196" width="16" height="16" rx="4" fill="#e90052"/>
+    <text x="326" y="209" fill="#ffffff" font-weight="700">Vendéggyőzelem</text>
+    <text x="486" y="209" fill="#ff4d8d" text-anchor="end" font-weight="800">32,2%</text>
+  </g>
+</svg>
