@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+  <defs>
+    <linearGradient id="nbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a0030"/><stop offset="1" stop-color="#160019"/>
+    </linearGradient>
+    <linearGradient id="arrow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7a5c86"/><stop offset="1" stop-color="#b79cbe"/>
+    </linearGradient>
+  </defs>
+
+  <!-- connectors (chevrons) -->
+  <g fill="none" stroke="url(#arrow)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.8">
+    <path d="M148.5,74 L156.5,80 L148.5,86"/>
+    <path d="M297.6,74 L305.6,80 L297.6,86"/>
+    <path d="M446.7,74 L454.7,80 L446.7,86"/>
+    <path d="M595.8,74 L603.8,80 L595.8,86"/>
+    <path d="M744.9,74 L752.9,80 L744.9,86"/>
+    <path d="M894.0,74 L902.0,80 L894.0,86"/>
+    <path d="M1043.1,74 L1051.1,80 L1043.1,86"/>
+  </g>
+
+  <!-- nodes -->
+  <!-- 01 Adatgyűjtés -->
+  <g transform="translate(20,45)">
+    <rect width="116" height="70" rx="13" fill="url(#nbg)" stroke="#00ff85" stroke-opacity="0.65"/>
+    <text x="58" y="31" text-anchor="middle" fill="#00ff85" font-size="19" font-weight="800">01</text>
+    <text x="58" y="53" text-anchor="middle" fill="#ffffff" font-size="12.5" font-weight="600">Adatgyűjtés</text>
+  </g>
+  <!-- 02 Tisztítás -->
+  <g transform="translate(169.1,45)">
+    <rect width="116" height="70" rx="13" fill="url(#nbg)" stroke="#00e0a0" stroke-opacity="0.65"/>
+    <text x="58" y="31" text-anchor="middle" fill="#00e0a0" font-size="19" font-weight="800">02</text>
+    <text x="58" y="53" text-anchor="middle" fill="#ffffff" font-size="12.5" font-weight="600">Tisztítás</text>
+  </g>
+  <!-- 03 EDA -->
+  <g transform="translate(318.2,45)">
+    <rect width="116" height="70" rx="13" fill="url(#nbg)" stroke="#04f5ff" stroke-opacity="0.65"/>
+    <text x="58" y="31" text-anchor="middle" fill="#04f5ff" font-size="19" font-weight="800">03</text>
+    <text x="58" y="53" text-anchor="middle" fill="#ffffff" font-size="12.5" font-weight="600">EDA</text>
+  </g>
+  <!-- 04 Hipotézisek -->
+  <g transform="translate(467.3,45)">
+    <rect width="116" height="70" rx="13" fill="url(#nbg)" stroke="#4db8ff" stroke-opacity="0.65"/>
+    <text x="58" y="31" text-anchor="middle" fill="#4db8ff" font-size="19" font-weight="800">04</text>
+    <text x="58" y="53" text-anchor="middle" fill="#ffffff" font-size="12.5" font-weight="600">Hipotézisek</text>
+  </g>
+  <!-- 05 Feature Engineering (2 lines) -->
+  <g transform="translate(616.4,45)">
+    <rect width="116" height="70" rx="13" fill="url(#nbg)" stroke="#9d7bff" stroke-opacity="0.65"/>
+    <text x="58" y="28" text-anchor="middle" fill="#9d7bff" font-size="19" font-weight="800">05</text>
+    <text x="58" y="48" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="600">Feature</text>
+    <text x="58" y="62" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="600">Engineering</text>
+  </g>
+  <!-- 06 Modellezés -->
+  <g transform="translate(765.5,45)">
+    <rect width="116" height="70" rx="13" fill="url(#nbg)" stroke="#c060e0" stroke-opacity="0.65"/>
+    <text x="58" y="31" text-anchor="middle" fill="#c060e0" font-size="19" font-weight="800">06</text>
+    <text x="58" y="53" text-anchor="middle" fill="#ffffff" font-size="12.5" font-weight="600">Modellezés</text>
+  </g>
+  <!-- 07 Optuna hangolás (2 lines) -->
+  <g transform="translate(914.6,45)">
+    <rect width="116" height="70" rx="13" fill="url(#nbg)" stroke="#e90052" stroke-opacity="0.7"/>
+    <text x="58" y="28" text-anchor="middle" fill="#ff4d8d" font-size="19" font-weight="800">07</text>
+    <text x="58" y="48" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="600">Optuna</text>
+    <text x="58" y="62" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="600">hangolás</text>
+  </g>
+  <!-- 08 Kiértékelés -->
+  <g transform="translate(1063.7,45)">
+    <rect width="116" height="70" rx="13" fill="url(#nbg)" stroke="#ff4d8d" stroke-opacity="0.7"/>
+    <text x="58" y="31" text-anchor="middle" fill="#ff4d8d" font-size="19" font-weight="800">08</text>
+    <text x="58" y="53" text-anchor="middle" fill="#ffffff" font-size="12.5" font-weight="600">Kiértékelés</text>
+  </g>
+</svg>
