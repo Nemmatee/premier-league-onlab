@@ -14,7 +14,7 @@
 
 **Feltáró adatelemzés · hipotézisvizsgálat · gépi tanulási predikció — az angol Premier League 10 szezonján**
 
-<sub>Önálló Laboratórium · BME Villamosmérnöki és Informatikai Kar · **Németh Máté (E3YAXE)**</sub>
+<sub>Önálló Laboratórium · BME Villamosmérnöki és Informatikai Kar · **Németh Máté**</sub>
 
 </div>
 
@@ -150,6 +150,6 @@ jupyter notebook notebooks/premier_league_analysis.ipynb
 
 📄 Részletes beszámoló és prezentáció a **[`docs/`](docs/)** mappában
 
-<sub>Készült az **Önálló Laboratórium** tárgy keretében · Németh Máté (E3YAXE)</sub>
+<sub>Készült az **Önálló Laboratórium** tárgy keretében · Németh Máté</sub>
 
 </div>
